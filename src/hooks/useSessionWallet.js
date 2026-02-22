@@ -5,7 +5,7 @@ import { MONAD_CONFIG } from '../constants';
 
 const SESSION_KEY = 'pixelwar_session_pk';
 const MIN_BALANCE = parseEther('0.005');
-const FUND_AMOUNT = parseEther('0.05');
+const FUND_AMOUNT = parseEther('0.5');
 const LOW_BALANCE_THRESHOLD = parseEther('0.01');
 
 export const useSessionWallet = (provider) => {
