@@ -5,8 +5,6 @@
 PaintBlitz is a fast-paced, winner-takes-all game where players **earn by knowledge, not luck**.  
 Players stake MON, answer questions correctly, paint a shared grid in real time, and the player who controls the most cells at the end **wins the entire prize pool**.
 
-Think **Polymarket × Multiplayer Game**, fully onchain.
-
 ---
 
 ## 🚀 Why PaintBlitz?
@@ -52,35 +50,6 @@ PaintBlitz removes all of that.
 
 ---
 
-## 👀 Spectators & Blinks (Monad-Native UX)
-
-PaintBlitz separates **watching** from **transacting**.
-
-### Watch Live (No Wallet Needed)
-- The game is deployed on Vercel
-- Anyone can watch a live game in real time without connecting a wallet
-
-### Sponsor via Blink (1-Click Onchain Action)
-- Spectators can sponsor the prize pool using a **Blink**
-- No app navigation, no game UI required
-- One click → transaction → prize pool updates live
-
-This turns spectators into **active onchain participants**.
-
----
-
-## 🔗 Blinks Used
-
-PaintBlitz exposes core actions as Blinks:
-
-- **Sponsor Game Blink**
-  - Add MON directly to an active game’s prize pool
-  - Works for any game using a single reusable Blink endpoint
-
-Blinks act as **entry points**, while the game itself remains a full real-time dApp.
-
----
-
 ## ⚡ Why Monad?
 
 PaintBlitz is designed around **concurrent user actions**:
@@ -117,11 +86,6 @@ PaintBlitz naturally benefits from Monad’s execution model without changing Et
 - Solidity `0.8.x`
 - ethers.js v6
 
-### Blinks
-- Next.js 14
-- Dialect Blinks (EVM)
-- Wagmi + Viem
-
 ---
 
 ## 🔐 Key Design Decisions
@@ -132,26 +96,5 @@ PaintBlitz naturally benefits from Monad’s execution model without changing Et
   - UI updates instantly, reconciles with chain state
 - **Session-based gameplay**
   - Minimal wallet interruptions during play
-- **Single reusable Blink**
-  - One Blink endpoint supports all games via parameters
 
 ---
-
-## 🎯 Why This Wins at Monad Blitz
-
-- Consumer-first UX
-- Real money, real competition
-- Blinks used correctly (as actions, not apps)
-- Demonstrates Monad’s strengths naturally
-- Playable, watchable, sponsorable — instantly
-
-PaintBlitz is not a demo.  
-It’s a **real onchain game designed for speed**.
-
----
-
-## 🟣 Built for Monad Blitz ⚡
-
-One day.  
-No luck.  
-Just skill — and speed.
